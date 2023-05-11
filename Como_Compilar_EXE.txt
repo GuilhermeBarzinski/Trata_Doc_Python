@@ -1,0 +1,8 @@
+Acessar a pasta das libs Python:
+cd C:\Users\Gui\AppData\Roaming\Python\Python311\Scripts
+
+Executar o Pyinstaller:
+.\pyinstaller.exe --onefile --windowed H:\__Desenvolvimento\Trata_Doc_Python\Trata_Docs.py
+
+Arquivo exe aparecerá na pasta dist dentro das libs:
+C:\Users\Gui\AppData\Roaming\Python\Python311\Scripts\dist
