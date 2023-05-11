@@ -4,7 +4,7 @@ import re
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableView, QPushButton, QFileDialog, QTextEdit, QVBoxLayout, QWidget, QMessageBox
 from PyQt5.QtCore import Qt, QAbstractTableModel
 
-APP_VERSION = "1.0.0"
+APP_VERSION = "1.0.1"
 
 class PandasModel(QAbstractTableModel):
     def __init__(self, data, headers):
